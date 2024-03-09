@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@import "open-props/style";
+
+@theme {
+  --default-font-family: var(--font-sans);
+
+  --font-size-*: initial;
+  --font-size-00: var(--font-size-00);
+  --font-size-0: var(--font-size-0);
+  --font-size-1: var(--font-size-1);
+  --font-size-2: var(--font-size-2);
+  --font-size-3: var(--font-size-3);
+  --font-size-4: var(--font-size-4);
+  --font-size-5: var(--font-size-5);
+  --font-size-6: var(--font-size-6);
+  --font-size-7: var(--font-size-7);
+  --font-size-8: var(--font-size-8);
+
+  --color-link: var(--indigo-6);
+  --width-prose: var(--size-content-3);
+
+  --width-content-1: var(--size-content-1);
+  --width-content-2: var(--size-content-2);
+  --width-content-3: var(--size-content-3);
+
+  --shadow-*: initial;
+  --shadow-1: var(--shadow-1);
+  --shadow-2: var(--shadow-2);
+  --shadow-3: var(--shadow-3);
+  --shadow-4: var(--shadow-4);
+  --shadow-5: var(--shadow-5);
+  --shadow-6: var(--shadow-6);
+
+  --inset-shadow-*: initial;
+  --inset-shadow-1: var(--inner-shadow-1);
+  --inset-shadow-2: var(--inner-shadow-2);
+  --inset-shadow-3: var(--inner-shadow-3);
+  --inset-shadow-4: var(--inner-shadow-4);
+  --inset-shadow-5: var(--inner-shadow-5);
+
+  --transition-timing-function-*: initial;
+  --transition-timing-function-1: var(--ease-1);
+  --transition-timing-function-2: var(--ease-2);
+  --transition-timing-function-3: var(--ease-3);
+  --transition-timing-function-4: var(--ease-4);
+  --transition-timing-function-5: var(--ease-5);
+  --transition-timing-function-in-1: var(--ease-in-1);
+  --transition-timing-function-in-2: var(--ease-in-2);
+  --transition-timing-function-in-3: var(--ease-in-3);
+  --transition-timing-function-in-4: var(--ease-in-4);
+  --transition-timing-function-in-5: var(--ease-in-5);
+  --transition-timing-function-out-1: var(--ease-out-1);
+  --transition-timing-function-out-2: var(--ease-out-2);
+  --transition-timing-function-out-3: var(--ease-out-3);
+  --transition-timing-function-out-4: var(--ease-out-4);
+  --transition-timing-function-out-5: var(--ease-out-5);
+  --transition-timing-function-in-out-1: var(--ease-in-out-1);
+  --transition-timing-function-in-out-2: var(--ease-in-out-2);
+  --transition-timing-function-in-out-3: var(--ease-in-out-3);
+  --transition-timing-function-in-out-4: var(--ease-in-out-4);
+  --transition-timing-function-in-out-5: var(--ease-in-out-5);
+  --transition-timing-function-elastic-out-1: var(--ease-elastic-out-1);
+  --transition-timing-function-elastic-out-2: var(--ease-elastic-out-2);
+  --transition-timing-function-elastic-out-3: var(--ease-elastic-out-3);
+  --transition-timing-function-elastic-out-4: var(--ease-elastic-out-4);
+  --transition-timing-function-elastic-out-5: var(--ease-elastic-out-5);
+  --transition-timing-function-elastic-in-1: var(--ease-elastic-in-1);
+  --transition-timing-function-elastic-in-2: var(--ease-elastic-in-2);
+  --transition-timing-function-elastic-in-3: var(--ease-elastic-in-3);
+  --transition-timing-function-elastic-in-4: var(--ease-elastic-in-4);
+  --transition-timing-function-elastic-in-5: var(--ease-elastic-in-5);
+  --transition-timing-function-elastic-in-out-1: var(--ease-elastic-in-out-1);
+  --transition-timing-function-elastic-in-out-2: var(--ease-elastic-in-out-2);
+  --transition-timing-function-elastic-in-out-3: var(--ease-elastic-in-out-3);
+  --transition-timing-function-elastic-in-out-4: var(--ease-elastic-in-out-4);
+  --transition-timing-function-elastic-in-out-5: var(--ease-elastic-in-out-5);
+  --transition-timing-function-step-1: var(--ease-step-1);
+  --transition-timing-function-step-2: var(--ease-step-2);
+  --transition-timing-function-step-3: var(--ease-step-3);
+  --transition-timing-function-step-4: var(--ease-step-4);
+  --transition-timing-function-step-5: var(--ease-step-5);
+  --transition-timing-function-spring-1: var(--ease-spring-1);
+  --transition-timing-function-spring-2: var(--ease-spring-2);
+  --transition-timing-function-spring-3: var(--ease-spring-3);
+  --transition-timing-function-spring-4: var(--ease-spring-4);
+  --transition-timing-function-spring-5: var(--ease-spring-5);
+  --transition-timing-function-bounce-1: var(--ease-bounce-1);
+  --transition-timing-function-bounce-2: var(--ease-bounce-2);
+  --transition-timing-function-bounce-3: var(--ease-bounce-3);
+  --transition-timing-function-bounce-4: var(--ease-bounce-4);
+  --transition-timing-function-bounce-5: var(--ease-bounce-5);
+}
