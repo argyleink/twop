@@ -16,7 +16,6 @@
   --font-size-7: var(--font-size-7);
   --font-size-8: var(--font-size-8);
 
-  --color-link: var(--indigo-6);
   --width-prose: var(--size-content-3);
 
   --width-content-1: var(--size-content-1);
@@ -89,4 +88,28 @@
   --transition-timing-function-bounce-3: var(--ease-bounce-3);
   --transition-timing-function-bounce-4: var(--ease-bounce-4);
   --transition-timing-function-bounce-5: var(--ease-bounce-5);
+
+  --color-ink-1: var(--ink-1);
+  --color-ink-2: var(--ink-2);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-link: var(--link);
+}
+
+:root {
+  --ink-1: var(--gray-9);
+  --ink-2: var(--gray-7);
+  --surface-1: var(--gray-2);
+  --surface-2: var(--gray-1);
+  --link: var(--indigo-6);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink-1: var(--gray-1);
+    --ink-2: var(--gray-5);
+    --surface-1: var(--gray-11);
+    --surface-2: var(--gray-10);
+    --link: var(--indigo-4);
+  }
 }
