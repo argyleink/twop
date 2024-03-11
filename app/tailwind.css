@@ -16,12 +16,6 @@
   --font-size-7: var(--font-size-7);
   --font-size-8: var(--font-size-8);
 
-  --width-prose: var(--size-content-3);
-
-  --width-content-1: var(--size-content-1);
-  --width-content-2: var(--size-content-2);
-  --width-content-3: var(--size-content-3);
-
   --shadow-*: initial;
   --shadow-1: var(--shadow-1);
   --shadow-2: var(--shadow-2);
@@ -89,11 +83,52 @@
   --transition-timing-function-bounce-4: var(--ease-bounce-4);
   --transition-timing-function-bounce-5: var(--ease-bounce-5);
 
+  /* custom open props content sizes */
+  --width-content-1: var(--size-content-1);
+  --width-content-2: var(--size-content-2);
+  --width-content-3: var(--size-content-3);
+  --width-header-1: var(--size-header-1);
+  --width-header-2: var(--size-header-2);
+  --width-header-3: var(--size-header-3);
+
+  /* custom adaptive (light/dark) prop utilities */
   --color-ink-1: var(--ink-1);
   --color-ink-2: var(--ink-2);
   --color-surface-1: var(--surface-1);
   --color-surface-2: var(--surface-2);
   --color-link: var(--link);
+
+  /* gradients */
+  --background-image-gradient-1: var(--gradient-1);
+  --background-image-gradient-2: var(--gradient-2);
+  --background-image-gradient-3: var(--gradient-3);
+  --background-image-gradient-4: var(--gradient-4);
+  --background-image-gradient-5: var(--gradient-5);
+  --background-image-gradient-6: var(--gradient-6);
+  --background-image-gradient-7: var(--gradient-7);
+  --background-image-gradient-8: var(--gradient-8);
+  --background-image-gradient-9: var(--gradient-9);
+  --background-image-gradient-10: var(--gradient-10);
+  --background-image-gradient-11: var(--gradient-11);
+  --background-image-gradient-12: var(--gradient-12);
+  --background-image-gradient-13: var(--gradient-13);
+  --background-image-gradient-14: var(--gradient-14);
+  --background-image-gradient-15: var(--gradient-15);
+  --background-image-gradient-16: var(--gradient-16);
+  --background-image-gradient-17: var(--gradient-17);
+  --background-image-gradient-18: var(--gradient-18);
+  --background-image-gradient-19: var(--gradient-19);
+  --background-image-gradient-20: var(--gradient-20);
+  --background-image-gradient-21: var(--gradient-21);
+  --background-image-gradient-22: var(--gradient-22);
+  --background-image-gradient-23: var(--gradient-23);
+  --background-image-gradient-24: var(--gradient-24);
+  --background-image-gradient-25: var(--gradient-25);
+  --background-image-gradient-26: var(--gradient-26);
+  --background-image-gradient-27: var(--gradient-27);
+  --background-image-gradient-28: var(--gradient-28);
+  --background-image-gradient-29: var(--gradient-29);
+  --background-image-gradient-30: var(--gradient-30);
 }
 
 :root {

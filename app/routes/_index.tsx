@@ -9,8 +9,8 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="h-dvh bg-surface-1 flex place-content-center place-items-center">
-      <div className="grid gap-5 bg-surface-2 shadow-5 rounded-2xl p-8 hover:translate-y-5 ease-spring-3">
+    <div className="h-dvh bg-gradient-30 dark:bg-gradient-8 flex place-content-center place-items-center">
+      <div className="max-w-content-3 grid gap-5 bg-surface-2 shadow-5 rounded-2xl p-8 hover:translate-y-5 ease-spring-3">
         <header>
           <h1 className="text-5 text-ink-1">Remix | Tailwind | Open Props</h1>
           <p className="text-ink-2">TWOP</p>
